@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #55ec0f 0%, #1ae1e5 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -50,13 +50,24 @@ h1 {
     flex: 1;
 }
 
-input, select {
+input, 
+select {
     width: 100%;
     padding: 15px;
     border: 2px solid #e0e0e0;
     background: #f8f9fa;
     border-radius: 12px;
     font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #667eea;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
 }
 
 label {
@@ -65,4 +76,22 @@ label {
     color: #555;
     font-weight: 600;
     text-align: left;
+}
+
+.converter-btn {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.converter-btn:hover {
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    transform: translateY(-2px);
 }
