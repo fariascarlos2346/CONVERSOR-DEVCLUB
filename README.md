@@ -6,7 +6,15 @@
   <li>Tecnologia: HTML, CSS, JAVASCRIPT</li>
   <li>Objetivo: Converter valores de uma Unidade Monetaria para outra.</li>
   <li>Como rodar: Abrir o index.html no navegador </li>
+  <li>Utilizando API </li>
 </p>
+<h2>Estruturas de Pastas</h2>
+<p>conversor de moedas</p>
+<p>img -> imagens usadas no projeto</p>
+<p>index.html -> ponto de entrada(Frontend)</p>
+<p>script.js -> lógica javascript</p>
+<p>styles.css -> estilos css</p>
+
 
 
 
